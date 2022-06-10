@@ -1,7 +1,8 @@
 /**
-* agregar las propiedades del objeto foo al array result, 
-* cada propiedad dentro de un array, con 2 items, 
-* en donde se representan la clave y el valor
+* modificar los valores de las propiedades (name y role) del objeto result, 
+* name -> capital,
+* role -> upper
+* 
 * 
 * output => {
     id:100,
