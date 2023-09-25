@@ -12,7 +12,15 @@ let foo = {
     name:"foo",
     role:"admin"
 };
-let result = [];
+
+let result= [];
+
+for(i in foo){
+    let x = [i,foo[i]];
+    result.push(x);
+}
+
+console.log(result);
 
 
 //export result
